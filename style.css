@@ -89,7 +89,7 @@ header a{
 /* thumbail */
 .thumbnail{
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     left: 50%;
     width: max-content;
     z-index: 100;
@@ -301,8 +301,11 @@ header a{
 @media screen and (max-width: 678px) {
     .carousel .list .item .content{
         padding-right: 0;
+        padding-left: 0;
     }
     .carousel .list .item .content .title{
-        font-size: 30px;
+        font-size: 20px;
     }
+   
+    
 }
